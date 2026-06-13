@@ -1,0 +1,11 @@
+{
+  "name": "expense-tracker-backend",
+  "version": "1.0.0",
+  "description": "FastAPI backend for Expense Tracker",
+  "main": "main.py",
+  "scripts": {
+    "dev": "node -e \"const { execSync } = require('child_process'); try { execSync('..\\\\.venv\\\\Scripts\\\\python -m uvicorn main:app --host 127.0.0.1 --port 8000', { stdio: 'inherit' }); } catch (err) { try { execSync('../.venv/bin/python -m uvicorn main:app --host 127.0.0.1 --port 8000', { stdio: 'inherit' }); } catch (err2) { execSync('python -m uvicorn main:app --host 127.0.0.1 --port 8000', { stdio: 'inherit' }); } }\""
+  },
+  "author": "",
+  "license": "ISC"
+}
